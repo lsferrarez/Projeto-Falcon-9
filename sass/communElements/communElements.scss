@@ -52,6 +52,15 @@
 
 // midea query
 
+@media (max-width: 510px) {
+  .downloadDesc {
+    button {
+      margin: 10px 0px;
+    }
+  }
+}
+
+
 @media (max-width: 405px) {
   .logoPc{
     width: 180px;
@@ -69,4 +78,5 @@
     margin-top: 15px;
   }
 }
+
 
