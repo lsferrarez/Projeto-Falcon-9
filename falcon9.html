@@ -9,6 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <!-- Lib text css -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="./images/favicon.png" type="images/x-icon">
@@ -48,7 +49,7 @@
       </header>
     </div>
 
-    <div class="container text-center titleContent">
+    <div class="container text-center titleContent" data-aos="fade-down" data-aos-duration="1500">
       <p class="h1 titleFalcon9">Falcon 9</p>
       <p class="h5 subTitleFalcon">PRIMEIRA CLASSE DE FOGUETES DE ORBITA CAPAZ DE VOLTAR</p>
     </div>
@@ -57,16 +58,16 @@
   <div class="container-fluid numbers">
     <div class="row text-center">
       <div class="col-sm col1">
-        <p class="h1 titleNumb">126</p>
-        <p class="subTitleNumb">LANÇAMENTOS TOTAIS</p>
+        <p class="h1 titleNumb" data-aos="flip-left" data-aos-duration="5000">126</p>
+        <p class="subTitleNumb" data-aos="flip-left" data-aos-duration="5000">LANÇAMENTOS TOTAIS</p>
       </div>
       <div class="col-sm">
-        <p class="h1 titleNumb">86</p>
-        <p class="subTitleNumb">DESEMBARQUE tOTAIS</p>
+        <p class="h1 titleNumb" data-aos="flip-left" data-aos-duration="5000">86</p>
+        <p class="subTitleNumb" data-aos="flip-left" data-aos-duration="5000">DESEMBARQUE tOTAIS</p>
       </div>
       <div class="col-sm col3">
-        <p class="h1 titleNumb">68</p>
-        <p class="subTitleNumb">FOGUETES RECUPERADOS</p>
+        <p class="h1 titleNumb" data-aos="flip-left" data-aos-duration="5000">68</p>
+        <p class="subTitleNumb" data-aos="flip-left" data-aos-duration="5000">FOGUETES RECUPERADOS</p>
         <div>
         </div>
       </div>
@@ -75,7 +76,7 @@
 
   <div class="container-fluid container00 container06">
     <div class="container containerFalcon9Desc">
-      <p class="falcon9Desc">
+      <p class="falcon9Desc" data-aos="fade-right" data-aos-duration="1500">
         O Falcon 9 é um foguete reutilizável de dois estágios projetado e fabricado pela SpaceX para o
         transporte confiável e seguro de pessoas e cargas úteis para a órbita da Terra e além. Falcon 9 é o
         primeiro foguete reutilizável de classe orbital do mundo. A capacidade de reutilização permite que a
@@ -347,6 +348,10 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
   <!-- Lib texte script-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
